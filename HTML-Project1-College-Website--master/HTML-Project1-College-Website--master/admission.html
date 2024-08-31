@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+</head>
+<body background="./background_58702-2655.avif">
+    <h1>Admission Form</h1>
+    <form action="admission.php">
+        Student's Full Name : <input type="text"> <br><br>
+        Father's Name : <input type="text"> <br><br>
+        Mother's Name : <input type="text"> <br><br>
+        Date Of Birth : <input type="date"> <br><br>
+        Gender : <input type="radio" id="female" name="gender" value="Female"> 
+                 <label for="female">Female</label>
+                 <input type="radio" id="male" name="gender" value="Male">
+                 <label for="male">Male</label> <br><br>
+        <fieldset>
+            <legend>Present Address</legend> <br>
+            Division : <input type="text">
+            District : <select name="district" id="district">
+                <option value="v1">Dakshina Kannada</option>
+                <option value="v2">Udupi</option>
+                <option value="v3">Chikmagalur</option>
+                <option value="v4">Hassan</option>
+                <option value="v5">Kodagu</option>
+                <option value="v6">Kasaragod</option>
+            </select> <br><br>
+            Address : <textarea name="address" id="address" cols="40" rows="5yg"></textarea>
+        </fieldset> <br><br>
+        <fieldset>
+            <legend>Permanent Address</legend> <br>
+            Division : <input type="text">
+            District : <select name="district" id="district">
+                <option value="v1">Dakshina Kannada</option>
+                <option value="v2">Udupi</option>
+                <option value="v3">Chikmagalur</option>
+                <option value="v4">Hassan</option>
+                <option value="v5">Kodagu</option>
+                <option value="v6">Kasaragod</option>
+            </select> <br><br>
+            Address : <textarea name="address" id="address" cols="40" rows="5yg"></textarea>
+        </fieldset> <br><br>
+        Religion : <input type="text"> 
+        Caste : <input type="text">
+        Sub-Caste : <input type="text"><br><br>
+        Nationality: <input type="text"> 
+        Phone Number : <input type="tel">
+        Email Address : <input type="email"><br><br>
+        Aadhaar Number : <input type="text"> 
+        Blood Group : <input type="text"> <br><br>
+        Insert Photo : <input type="file"> <br><br><br>
+        <p>I hereby, declaring that I will obey all the rules and regulations of the institution and be fully responsible for violationg the rules.</p>
+        <button type="button" onclick="alert('Admission form sent successfully!!')">SUBMIT</button>
+
+    </form>
+</body>
+</html>
